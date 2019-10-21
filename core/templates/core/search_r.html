@@ -1,0 +1,9 @@
+<h2>Search Results</h2>
+
+<ul>
+	{% for city in cities %}
+	<li>
+		{{ city.name }}, {{ city.country }}
+	</li>
+	{% endfor %}
+</ul>
